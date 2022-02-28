@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>PEGASUS FULL VERSION</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <StartupObject>PEGASUS.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>D:\IDM\PEGASUS FULL VERSION\guna.ui2.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="dnlib">
+      <HintPath>D:\mining\dnlib.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>D:\IDM\PEGASUS FULL VERSION\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\IDM\PEGASUS FULL VERSION\system.net.http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\IDM\msrdc\SourceDir\Remote Desktop\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>D:\mining\AsyncMod Miner Last Version 4.0\AsyncMod Miner Last Version 4.0\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="Vestris.ResourceLib">
+      <HintPath>D:\mining\AsyncMod Miner Last Version 4.0\AsyncMod Miner Last Version 4.0\Vestris.ResourceLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IconExtractor">
+      <HintPath>D:\mining\AsyncMod Miner Last Version 4.0\AsyncMod Miner Last Version 4.0\IconExtractor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>..\..\rel\BitRAT\dmp\1\Dumps\.Net Assemblies\System.IO.Compression.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
